@@ -39,20 +39,18 @@ This tutorial helps you understand how **Azure Data Factory** (ADF) can be used 
 
 Follow these instruction to download the Azure Databricks lab notebooks from this reposiory and import them into Azure Databricks.
 
-## Step 1:
-
-### Create an Azure Databricks workspace using Azure portal
+## Step 1: Create an Azure Databricks workspace using the Azure portal
 
 
-1.In the Azure portal, select Create a resource > Data + Analytics > Azure Databricks.
+1. In the Azure portal, select Create a resource > Data + Analytics > Azure Databricks.
 
 ![deploy](https://i.ibb.co/thPhwmM/tuxpi-com-1551766437.jpg)
 
-2.Under Azure Databricks Service, provide the values to create a Azure Databricks workspace.
+2. Under Azure Databricks Service, provide the values to create a Azure Databricks workspace.
 
 ![deploy](https://i.ibb.co/pbZpjk8/tuxpi-com-1551766814.jpg)
 
-3.Provide the following values:
+3. Provide the following values:
 
 a. Workspace name  : A name for your Azure Databricks workspace
 
@@ -64,18 +62,18 @@ d. Location	      :  Specify the location of your Azure Databricks cluster.
 
 e. Pricing Tier	  :  Choose between Standard or Premium.
 
-Select Pin to pin the resource to the Azure Dashboard and then click Create.
+You can choose to *Select Pin to Dashboard* to pin the resource to the Azure Dashboard and then **click Create**.
 
-4.The workspace creation takes a few minutes. During workspace creation, the portal displays "Submitting deployment for Azure Databricks" tile on the right side. You may need to scroll right on your dashboard to see the tile. There is also a progress bar displayed near the top of the screen. You can watch either area for progress.
+4. The workspace creation takes a few minutes. During workspace creation, the portal displays *"Submitting deployment for Azure Databricks"* tile on the right side. You may need to scroll right on your dashboard to see the tile. There is also a progress bar displayed near the top of the screen. You can watch either area for progress.
 
 ![deploy](https://docs.microsoft.com/en-us/azure/azure-databricks/media/quickstart-create-databricks-workspace-portal/databricks-deployment-tile.png)
 
 
-5.In the Azure portal, go to the Azure Databricks workspace that you created, and then click Launch Workspace.
+5. In the Azure portal, go to the Azure Databricks workspace that you created, and then click Launch Workspace.
 
 ![deploy](https://i.ibb.co/1m9HCC4/tuxpi-com-1551939679.jpg) 
 
-6.You are now inside your Databricks workspace.
+6. You are now inside your Databricks workspace.
 
 ![deploy](https://i.ibb.co/QKNK488/Web.jpg)
 
@@ -107,25 +105,25 @@ Select Pin to pin the resource to the Azure Dashboard and then click Create.
 
 In Databricks you can create two different types of clusters:
 
-1.Standard : Standard clusters are the default and can be used with Python, R, Scala, and SQL. 
+1. Standard : Standard clusters are the default and can be used with Python, R, Scala, and SQL. 
 
-2.High Concurrency : High-concurrency clusters are tuned to provide the efficient resource utilization, isolation, security, and the best performance for sharing by multiple concurrently active users.
+2. High Concurrency : High-concurrency clusters are tuned to provide the efficient resource utilization, isolation, security, and the best performance for sharing by multiple concurrently active users.
 
 We'll be using a Standard cluster for our Labs.
 
-1.Click the clusters icon ![GitHub Logo](https://i.ibb.co/NpVHMyf/logo1.png) in the sidebar.
+1. Click the clusters icon ![GitHub Logo](https://i.ibb.co/NpVHMyf/logo1.png) in the sidebar.
 
-2.Click the Create Cluster button at the top of the page.
+2. Click the Create Cluster button at the top of the page.
 
 
 ![GitHub Logo](https://i.ibb.co/c8f9SrH/tuxpi-com-1551771246.jpg)
 
 
-3.Click the Create button. The cluster list page shows the status of the new cluster.
+3. Click the Create button. The cluster list page shows the status of the new cluster.
 
-a.On the Create Cluster page, specify the cluster name QS.
+a. On the Create Cluster page, specify the cluster name QS.
 		
-b.select 5.2 (Scala 2.11, Spark 2.4.0) in the Databricks Runtime Version   drop-down.
+b. select 5.2 (Scala 2.11, Spark 2.4.0) in the Databricks Runtime Version   drop-down.
 		
 		
 		
@@ -135,17 +133,17 @@ c.Click Create Cluster
 
 ## Step 6: Attach the Notebook to your cluster.
 
-1.Go to the Databricks WorkSpace
+1. Go to the Databricks WorkSpace
 
 ![deploy](https://i.ibb.co/DDRzWwK/Data1.jpg)
 
-2.Go to your specific notebook in the workspace.
+2. Go to your specific notebook in the workspace.
 
 ![deploy](https://i.ibb.co/qdS7qWg/picData.jpg)
 
-3.Click on `detached` written on the top-left corner, and you'll see a list of active clusters.
+3. Click on `detached` written on the top-left corner, and you'll see a list of active clusters.
 
-4.Attach your notebook to a running cluster. A green icon shall appear on top, meaning our notebook is now attached to our cluster and is ready to be executed.
+4. Attach your notebook to a running cluster. A green icon shall appear on top, meaning our notebook is now attached to our cluster and is ready to be executed.
 ![deploy](https://i.ibb.co/QPr9vtF/tuxpi-com-1551771824.jpg)
 
 ### Your Databricks Environment is now setup and you can proceed with the labs.
