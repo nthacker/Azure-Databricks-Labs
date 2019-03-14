@@ -52,15 +52,15 @@ Follow these instruction to download the Azure Databricks lab notebooks from thi
 
 3. Provide the following values:
 
-a. Workspace name  : A name for your Azure Databricks workspace
+	a. Workspace name  : A name for your Azure Databricks workspace
 
-b. Subscription    :	From the drop-down, select your Azure subscription.
+	b. Subscription    :	From the drop-down, select your Azure subscription.
 
-c. Resource group  :  Specify whether you want to create a new resource group or use an existing one. A resource group is a container that holds related resources for an Azure solution. For more information, see Azure Resource Group overview.
+	c. Resource group  :  Specify whether you want to create a new resource group or use an existing one. A resource group is a container that holds related resources for an Azure solution. For more information, see Azure Resource Group overview.
 
-d. Location	      :  Specify the location of your Azure Databricks cluster.
+	d. Location	      :  Specify the location of your Azure Databricks cluster.
 
-e. Pricing Tier	  :  Choose between Standard or Premium.
+	e. Pricing Tier	  :  Choose between Standard or Premium.
 
 You can choose to *Select Pin to Dashboard* to pin the resource to the Azure Dashboard and then **click Create**.
 
