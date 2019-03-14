@@ -52,24 +52,26 @@ Follow these instruction to download the Azure Databricks lab notebooks from thi
 
 3.Provide the following values:
 
-	a. Workspace name  : A name for your Azure Databricks workspace
+a. Workspace name	: A name for your Azure Databricks workspace
 
-	b. Subscription    :	From the drop-down, select your Azure subscription.
+b. Subscription	:	From the drop-down, select your Azure subscription.
 
-	c. Resource group  :  Specify whether you want to create a new resource group or use an existing one. A resource group is a container that holds related resources for an Azure solution. For more information, see Azure Resource Group overview.
+c. Resource group	:  Specify whether you want to create a new resource group or use an existing one. A resource group is a container that holds related resources for an Azure solution. For more information, see Azure Resource Group overview.
 
-	d. Location	      :  Specify the location of your Azure Databricks cluster.
+d. Location	:  Specify the location of your Azure Databricks cluster.
 
-	e. Pricing Tier	  :  Choose between Standard or Premium.
+e. Pricing Tier	:  Choose between Standard or Premium.
 
-You can choose to *Select Pin to Dashboard* to pin the resource to the Azure Dashboard and then **click Create**.
+You can choose to *Select Pin to Dashboard* to pin the resource to the Azure Dashboard
+
+**click Create**.
 
 4.The workspace creation takes a few minutes. During workspace creation, the portal displays *"Submitting deployment for Azure Databricks"* tile on the right side. You may need to scroll right on your dashboard to see the tile. There is also a progress bar displayed near the top of the screen. You can watch either area for progress.
 
 ![deploy](https://docs.microsoft.com/en-us/azure/azure-databricks/media/quickstart-create-databricks-workspace-portal/databricks-deployment-tile.png)
 
 
-5.In the Azure portal, go to the Azure Databricks workspace that you created, and then click Launch Workspace.
+5.In the Azure portal, go to the Azure Databricks workspace that you created, and then click **Launch Workspace**.
 
 ![deploy](https://i.ibb.co/1m9HCC4/tuxpi-com-1551939679.jpg) 
 
@@ -90,9 +92,7 @@ You can choose to *Select Pin to Dashboard* to pin the resource to the Azure Das
 
 ## Step 3: Import the Notebooks into the Azure Databricks Workspace.
 
-1.Click the Workspace button![GitHub Logo](https://i.ibb.co/zrpPNZc/DataPic.png) or the Home button ![GitHub Logo](https://i.ibb.co/zNtqM9g/Datapic2.png) in the sidebar. Do one of the following:
-
-2.Next to any folder, click the right side of the text and select Import.
+1.Click the Workspace button![GitHub Logo](https://i.ibb.co/zrpPNZc/DataPic.png) or the Home button ![GitHub Logo](https://i.ibb.co/zNtqM9g/Datapic2.png) in the sidebar. Select Import as shown in the screenshot. Alternatively, next to any folder, click the right side of the text and select Import.
 
 ![GitHub Logo](https://i.ibb.co/HHTZkmP/tuxpi-com-1551941692.jpg)
 
@@ -121,9 +121,9 @@ We'll be using a Standard cluster for our Labs.
 
 3.Click the Create button. The cluster list page shows the status of the new cluster.
 
-	a. On the Create Cluster page, specify the cluster name QS.
+a. On the Create Cluster page, specify the cluster name QS.
 
-	b. select 5.2 (Scala 2.11, Spark 2.4.0) in the Databricks Runtime Version   drop-down.
+b. select 5.2 (Scala 2.11, Spark 2.4.0) in the Databricks Runtime Version   drop-down.
 		
 		
 		
