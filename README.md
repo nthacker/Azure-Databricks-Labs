@@ -62,9 +62,9 @@ d. Location	:  Specify the location of your Azure Databricks cluster.
 
 e. Pricing Tier	:  Choose between Standard or Premium.
 
-You can choose to *Select Pin to Dashboard* to pin the resource to the Azure Dashboard
+You can choose the *Select Pin to Dashboard* option to pin the resource to the Azure Dashboard
 
-**click Create**.
+**Then click Create**
 
 4.The workspace creation takes a few minutes. During workspace creation, the portal displays *"Submitting deployment for Azure Databricks"* tile on the right side. You may need to scroll right on your dashboard to see the tile. There is also a progress bar displayed near the top of the screen. You can watch either area for progress.
 
@@ -82,7 +82,7 @@ You can choose to *Select Pin to Dashboard* to pin the resource to the Azure Das
 
 ## Step 2: Download the labs from the Bitbucket repository.
 
-1.Go to Download tab and Click on Download Repository.
+1.Go to Download tab and click on Download Repository.
 
 ![deploy](https://i.ibb.co/4VVhJyM/tuxpi-com-1551770630.jpg)
 
