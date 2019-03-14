@@ -1,9 +1,16 @@
 # Project Description
 
-These labs are designed to get you started with Azure Databricks and spark.Azure Databricks is an Apache Spark-based analytics platform optimized for the Microsoft Azure cloud services platform.
+These labs are designed to help you to understand how to use Azure Databricks for multiple scenarios, including: 
+Azure Databricks is an Apache Spark-based big data analytics and machine learning framework optimized for the Microsoft Azure Cloud.
 Databricks is integrated with Azure to provide one-click setup, streamlined workflows, and an interactive workspace that enables collaboration between data scientists, data engineers, and business analysts.
 
-The detailed explaination of each and every notebook is given below:
+This repository consists of 6 labs that are designed to help you to understand how to use Azure Databricks for multiple use cases, including:
+
+Analysis of structured and unsstructed data.
+Analysis of streaming data.
+Machine Learning
+
+The 6 labs are implemented 6 independent Databricks Notebooks and are described below.
 
 #### Lab-01 Data Engineering:
 
